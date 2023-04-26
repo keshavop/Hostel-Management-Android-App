@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="-183dp"
+        android:layout_marginRight="-183dp"
+        android:text="Hostel Management System"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="499dp"
+        android:src="@drawable/room" />
+
+    <TextView
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="155dp"
+        android:text="Students"></TextView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="281dp"
+        android:src="@drawable/student" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="134dp"
+        android:text="Rooms"></TextView>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="67dp"
+        android:src="@drawable/att" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="152dp"
+        android:text="Attendence"></TextView>
+</RelativeLayout>

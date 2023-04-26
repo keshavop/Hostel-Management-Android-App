@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/summer"
+    android:layout_height="match_parent"
+    tools:context=".attendanceLayout">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        app:cardBackgroundColor="#69BDF4"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="16dp"
+        android:id="@+id/card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room-1"
+                android:id="@+id/atroom1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/markAttendanceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Attendance"/>
+
+            <Button
+                android:id="@+id/checkAttendanceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Attendance"/>
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/attendanceStatusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="#69BDF4"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/card1"
+        app:cardCornerRadius="16dp"
+        android:id="@+id/card2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room-2"
+                android:id="@+id/atroom2"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/markAttendanceButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Attendance"/>
+
+            <Button
+                android:id="@+id/checkAttendanceButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Attendance"/>
+
+            <TextView
+                android:id="@+id/attendanceStatusTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="#69BDF4"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/card2"
+        app:cardCornerRadius="16dp"
+        android:id="@+id/card3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room-3"
+                android:id="@+id/atroom3"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/markAttendanceButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Attendance"/>
+
+            <Button
+                android:id="@+id/checkAttendanceButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Attendance"/>
+
+            <TextView
+                android:id="@+id/attendanceStatusTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
